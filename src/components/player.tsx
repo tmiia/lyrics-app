@@ -50,9 +50,9 @@ const Player = ({} : PlayerProps) => {
           </button>
         </>
       )}
-          <div className="absolute top-0 left-0 w-screen h-screen z-0 pointer-events-none">
-            <VinylScene isPlaying={state.isPlaying} />
-          </div>
+      <div className="absolute top-0 left-0 w-screen h-screen z-0 pointer-events-none">
+        <VinylScene isPlaying={state.isPlaying} />
+      </div>
     </section>
   )
 }
