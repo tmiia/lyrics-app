@@ -54,8 +54,8 @@ const VinylScene = ({ isPlaying }: VinylSceneProps) => {
       <directionalLight position={[0, -5, 0]} intensity={1} /> */}
 
       <directionalLight
-        position={[3, -2, -1]}        // Décalée à droite et en haut
-        target-position={[0, -8, 0]} // Cible le vinyl record
+        position={[3, -2, -1]}
+        target-position={[0, -8, 0]}
         intensity={1.5}
         color="#ff0000"
         castShadow
