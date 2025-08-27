@@ -1,5 +1,5 @@
 "use client"
-import VinylScene from "@/components/3D_Scenes/vinylScene";
+import VinylScene from "@/components/Experience/vinylScene";
 import LyricsDisplayer from "@/components/lyricsDisplayer";
 import Player from "@/components/player";
 import RandomSongStack from "@/components/randomSongStack";
