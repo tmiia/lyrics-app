@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-light: #FAF1E2;
+  --color-dark: #E1D7C6;
 }
 
 @theme inline {
@@ -10,6 +12,10 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-marvio: var(--font-marvio);
+  --font-maghfirea: var(--font-maghfirea);
+  --color-light: var(--color-light);
+  --color-dark: var(--color-dark);
 }
 
 @media (prefers-color-scheme: dark) {
