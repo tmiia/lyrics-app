@@ -66,7 +66,7 @@ const RandomSongStack = () => {
                   }}
                   src={songs[imageIndex % songs.length].cover}
                   alt={`cover album of ${songs[imageIndex % songs.length].title}`}
-                  className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 max-w-lg rounded-3xl"
+                  className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 max-w-xs lg:max-w-lg rounded-3xl"
                   style={{
                     zIndex: imageIndex
                   }}
@@ -93,14 +93,14 @@ const RandomSongStack = () => {
           </motion.div>
 
           <div className="absolute w-full top-1/2 left-1/2 -translate-x-1/2 z-10 flex justify-between items-center px-8 font-maghfirea">
-            <strong className="text-zinc-700 tracking-wider opacity-70">Discover the</strong>
+            <strong className="text-white lg:text-zinc-700 tracking-wider opacity-70">Discover the</strong>
             <button
               className="px-6 py-3 bg-white/20 backdrop-blur-sm rounded-sm text-white font-medium font-marvio hover:bg-white/30 transition-colors cursor-pointer"
               onClick={handlePlay}
             >
               Play random
             </button>
-            <strong className="text-zinc-700 tracking-wider opacity-70">songs lyrics</strong>
+            <strong className="text-white lg:text-zinc-700 tracking-wider opacity-70">songs lyrics</strong>
           </div>
         </motion.section>
       )}
