@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { PlayerProvider } from "@/context/PlayerContext";
+import localFont from "next/font/local";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -10,6 +12,18 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const marvio = localFont({
+  src: "./fonts/marvio.otf",
+  variable: "--font-marvio",
+  display: "swap",
+});
+
+const maghfirea = localFont({
+  src: "./fonts/maghfirea.otf",
+  variable: "--font-maghfirea",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -25,9 +39,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${marvio.variable} ${maghfirea.variable} antialiased`}
       >
-        {children}
+        <PlayerProvider>{children}</PlayerProvider>
       </body>
     </html>
   );
