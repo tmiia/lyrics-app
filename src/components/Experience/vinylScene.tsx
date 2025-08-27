@@ -1,8 +1,7 @@
-import LoadingFallback from '@/components/Experience/loadingFallback'
 import VinylSleeve from '@/components/Experience/vinylSleeve'
 import VinylRecord from '@/components/Experience/vinylRecord'
-import { Suspense, useRef } from 'react'
-import { Canvas, useFrame } from '@react-three/fiber'
+import { useRef } from 'react'
+import { Canvas } from '@react-three/fiber'
 import { Group } from 'three'
 import { useSpring, animated, config } from '@react-spring/three'
 
