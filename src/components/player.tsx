@@ -1,7 +1,7 @@
 "use client"
 import { usePlayer } from "@/context/PlayerContext"
 import { useEffect, useRef } from "react"
-import VinylScene from "./3D_Scenes/vinylScene"
+import VinylScene from "@/components/3D_Scenes/vinylScene"
 
 type PlayerProps = {
 
