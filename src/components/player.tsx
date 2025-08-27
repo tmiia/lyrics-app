@@ -45,8 +45,8 @@ const Player = ({} : PlayerProps) => {
       ) : (
         <>
           <audio ref={audioRef} src={state.currentTrack ? state.currentTrack.audioSrc : ''} onTimeUpdate={updateTime} />
-          <button onClick={() => dispatch({ type: state.isPlaying ? "PAUSE" : "PLAY" })} className="sr-only">
-            {state.isPlaying ? "Pause" : "Play"}
+          <button onClick={() => dispatch({ type: state.isPlaying ? "PAUSE" : "PLAY" })} className="z-20 px-6 py-3 bg-white/20 backdrop-blur-sm rounded-sm text-white font-medium font-marvio hover:bg-white/30 transition-colors cursor-pointer">
+            {state.isPlaying ? "Close" : "Play"}
           </button>
         </>
       )}
