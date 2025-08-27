@@ -41,162 +41,346 @@
       ]
     },
     {
-    "title": "ils me rient tous au nez",
-    "artist": "Théodora",
-    "audioSrc": "/songs/ils-me-rient-tous-au-nez_cut.mp3",
+    "title": "Pink pony club",
+    "artist": "Chappell Roan",
+    "audioSrc": "/songs/chappell-roan-pink-pony-club-cut.mp3",
     "cover": "/covers/Chappell_Roan_cover.jpg",
       "lyrics": [
         {
-          "text": "Pourtant, j'suis juste passionnelle",
+          "text": "[...]",
           "time": 0
         },
         {
-          "text": "Au point d'en perdre sommeil",
-          "time": 2.5
+          "text": "I know you wanted me to stay",
+          "time": 8.50
         },
         {
-          "text": "Si j't'aime et que ça va pas",
-          "time": 5.5
+          "text": "But I can't ignore the crazy",
+          "time": 13.7
         },
         {
-          "text": "Sans demander, je te passe mon aide",
-          "time": 8.0
+          "text": "visions of me in LA",
+          "time": 15.7
         },
         {
-          "text": "Pourtant, j'suis juste passionnelle",
-          "time": 11.2
+          "text": "And I heard that there's a special place",
+          "time": 18
         },
         {
-          "text": "Au point d'en perdre sommeil",
-          "time": 14.5
+          "text": "Where boys and girls can",
+          "time": 22.7
         },
         {
-          "text": "Si j't'aime et que ça va pas",
-          "time": 17.5
+          "text": "all be queens every single day",
+          "time": 24
         },
         {
-          "text": "Sans demander, je te passe mon aide",
-          "time": 19.7
+          "text": "I'm having wicked dreams",
+          "time": 27
+        },
+        {
+          "text": "of leaving Tennessee",
+          "time": 30
+        },
+        {
+          "text": "Hear Santa Monica,",
+          "time": 32.4
+        },
+        {
+          "text": "I swear it's calling me",
+          "time": 33.8
+        },
+        {
+          "text": "Won't make my mama proud,",
+          "time": 36.8
+        },
+        {
+          "text": "it's gonna cause a scene",
+          "time": 39
+        },
+        {
+          "text": "She sees her baby girl,",
+          "time": 41.6
+        },
+        {
+          "text": "I know she's gonna scream",
+          "time": 43.8
+        },
+        {
+          "text": "God, what have you done?",
+          "time": 45.9
+        },
+        {
+          "text": "You're a pink pony girl",
+          "time": 48.8
+        },
+        {
+          "text": "And you dance at the club",
+          "time": 51
+        },
+        {
+          "text": "Oh mama, I'm just having fun",
+          "time": 52.6
+        },
+        {
+          "text": "On the stage in my heels",
+          "time": 57.6
+        },
+        {
+          "text": "It's where I belong down at the",
+          "time": 60
+        },
+        {
+          "text": "Pink Pony Club",
+          "time": 64
+        },
+        {
+          "text": "I'm gonna keep on dancing at the",
+          "time": 66
+        },
+        {
+          "text": "Pink Pony Club",
+          "time": 68.7
+        },
+        {
+          "text": "I'm gonna keep on dancing down at the",
+          "time": 69.8
+        },
+        {
+          "text": "West Hollywood,",
+          "time": 72.6
+        },
+        {
+          "text": "I'm gonna keep on dancing at the",
+          "time": 75
+        },
+        {
+          "text": "Pink Pony Club,",
+          "time": 77
+        },
+        {
+          "text": "Pink Pony Club",
+          "time": 79
         }
       ]
     },
     {
-    "title": "ils me rient tous au nez",
-    "artist": "Théodora",
-    "audioSrc": "/songs/ils-me-rient-tous-au-nez_cut.mp3",
+    "title": "Denial Is a River",
+    "artist": "Doechii",
+    "audioSrc": "/songs/doechii-river-denial.mp3",
     "cover": "/covers/Doechii_cover.jpg",
       "lyrics": [
         {
-          "text": "Pourtant, j'suis juste passionnelle",
+          "text": "Uh",
           "time": 0
         },
         {
-          "text": "Au point d'en perdre sommeil",
-          "time": 2.5
+          "text": "I mean, fuck, I like pills, I like drugs",
+          "time": 1
         },
         {
-          "text": "Si j't'aime et que ça va pas",
+          "text": "I like gettin' money, I like strippers, I like to fuck",
+          "time": 3
+        },
+        {
+          "text": "I like day-drinkin' and day parties and Hollywood",
           "time": 5.5
         },
         {
-          "text": "Sans demander, je te passe mon aide",
-          "time": 8.0
+          "text": "I like doin' Hollywood shit, snort it? Probably would (yeah)",
+          "time": 8.6
         },
         {
-          "text": "Pourtant, j'suis juste passionnelle",
-          "time": 11.2
+          "text": "What can I say? The shit works, it feels good",
+          "time": 11.4
         },
         {
-          "text": "Au point d'en perdre sommeil",
-          "time": 14.5
+          "text": "And my self-worth's at an all-time low",
+          "time": 12.5
         },
         {
-          "text": "Si j't'aime et que ça va pas",
-          "time": 17.5
+          "text": "And just when it couldn't get worse",
+          "time": 15.5
         },
         {
-          "text": "Sans demander, je te passe mon aide",
-          "time": 19.7
+          "text": "My ex crashed my place and destroyed all I owned (yeah)",
+          "time": 17.6
+        },
+        {
+          "text": "Whoopsie, made a oopsie",
+          "time": 20.8
+        },
+        {
+          "text": "100, 000-dollar oops made me loopy (yeah)",
+          "time": 23.7
+        },
+        {
+          "text": "I ain't a killer, but don't push me",
+          "time": 26.6
+        },
+        {
+          "text": "Don't wanna have to turn a nigga guts into soup beans",
+          "time": 28.5
+        },
+        {
+          "text": "Whoa, whoa, whoa, whoa, whoa (rurr), okay, Doechii",
+          "time": 30.6
         }
       ]
     },
     {
-    "title": "ils me rient tous au nez",
-    "artist": "Théodora",
-    "audioSrc": "/songs/ils-me-rient-tous-au-nez_cut.mp3",
+    "title": "Love me not",
+    "artist": "Ravyn Lenae",
+    "audioSrc": "/songs/love-me-not.mp3",
     "cover": "/covers/Ravyn_Lenae_cover.jpg",
       "lyrics": [
         {
-          "text": "Pourtant, j'suis juste passionnelle",
+          "text": "And, oh, it's hard to see you,",
           "time": 0
         },
         {
-          "text": "Au point d'en perdre sommeil",
-          "time": 2.5
+          "text": "but I wish you were right here",
+          "time": 1.8
         },
         {
-          "text": "Si j't'aime et que ça va pas",
-          "time": 5.5
+          "text": "Oh, it's hard to leave you",
+          "time": 4
         },
         {
-          "text": "Sans demander, je te passe mon aide",
-          "time": 8.0
+          "text": "when I get you everywhere",
+          "time": 6.4
         },
         {
-          "text": "Pourtant, j'suis juste passionnelle",
-          "time": 11.2
+          "text": "All this time I'm thinking",
+          "time": 8.8
         },
         {
-          "text": "Au point d'en perdre sommeil",
-          "time": 14.5
+          "text": "we could never be a pair",
+          "time": 10.6
         },
         {
-          "text": "Si j't'aime et que ça va pas",
-          "time": 17.5
+          "text": "Oh, no, I don't need you,",
+          "time": 12.7
         },
         {
-          "text": "Sans demander, je te passe mon aide",
-          "time": 19.7
+          "text": "but I miss you, come here",
+          "time": 14.8
+        },
+        {
+          "text": "And, oh, it's hard to see you,",
+          "time": 16.7
+        },
+        {
+          "text": "but I wish you were right here",
+          "time": 18.9
+        },
+        {
+          "text": "Oh, it's hard to leave you",
+          "time": 21.5
+        },
+        {
+          "text": "when I get you everywhere",
+          "time": 22.9
+        },
+        {
+          "text": "All this time I'm thinking",
+          "time": 24.8
+        },
+        {
+          "text": "I'm strong enough to sink it",
+          "time": 27.5
+        },
+        {
+          "text": "Oh, no, I don't need you,",
+          "time": 29.8
+        },
+        {
+          "text": "but I miss you, come here",
+          "time": 31.8
+        },
+        {
+          "text": "He love me not, he loves me",
+          "time": 33.7
+        },
+        {
+          "text": "He holds me tight, then lets me go",
+          "time": 35.9
+        },
+        {
+          "text": "He love me not, he loves me",
+          "time": 37.9
+        },
+        {
+          "text": "He holds me tight, then lets me go",
+          "time": 39.8
         }
       ]
     },
     {
-    "title": "ils me rient tous au nez",
-    "artist": "Théodora",
-    "audioSrc": "/songs/ils-me-rient-tous-au-nez_cut.mp3",
+    "title": "Gabriela",
+    "artist": "Mariana Froes",
+    "audioSrc": "/songs/gabriela.mp3",
     "cover": "/covers/Mariana_Froes_cover.jpg",
       "lyrics": [
         {
-          "text": "Pourtant, j'suis juste passionnelle",
+          "text": "Veja bem, coração",
           "time": 0
         },
         {
-          "text": "Au point d'en perdre sommeil",
-          "time": 2.5
+          "text": "Uma praia sem sol não é nada",
+          "time": 2.7
         },
         {
-          "text": "Si j't'aime et que ça va pas",
-          "time": 5.5
+          "text": "O amor da gente",
+          "time": 8.8
         },
         {
-          "text": "Sans demander, je te passe mon aide",
-          "time": 8.0
+          "text": "É dente com dente",
+          "time": 12.7
         },
         {
-          "text": "Pourtant, j'suis juste passionnelle",
-          "time": 11.2
+          "text": "É rosa e preto",
+          "time": 14.7
         },
         {
-          "text": "Au point d'en perdre sommeil",
-          "time": 14.5
+          "text": "Março, fevereiro",
+          "time": 18.7
         },
         {
-          "text": "Si j't'aime et que ça va pas",
-          "time": 17.5
+          "text": "Quero o ano inteiro",
+          "time": 23.2
         },
         {
-          "text": "Sans demander, je te passe mon aide",
-          "time": 19.7
+          "text": "O nosso dueto",
+          "time": 25.7
+        },
+        {
+          "text": "O amor da gente",
+          "time": 29.8
+        },
+        {
+          "text": "É dente com dente",
+          "time": 33.7
+        },
+        {
+          "text": "É rosa e preto",
+          "time": 35.8
+        },
+        {
+          "text": "Março, fevereiro",
+          "time": 39.8
+        },
+        {
+          "text": "Quero o ano inteiro",
+          "time": 43.7
+        },
+        {
+          "text": "O nosso dueto",
+          "time": 46.8
+        },
+        {
+          "text": "[...]",
+          "time": 48
         }
       ]
     }
