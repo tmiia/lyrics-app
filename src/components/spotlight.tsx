@@ -20,7 +20,7 @@ const Spotlight = () => {
             onClick={handleClick}
             className="font-maghfirea text-sm text-zinc-700 hover:text-zinc-900 transition-colors cursor-pointer uppercase"
         >
-            (Meryl Spot)
+            (Play Meryl)
         </button>
     )
 }
