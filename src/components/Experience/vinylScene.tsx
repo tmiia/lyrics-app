@@ -2,6 +2,7 @@ import VinylSleeve from '@/components/Experience/vinylSleeve'
 import VinylRecord from '@/components/Experience/vinylRecord'
 import { useRef } from 'react'
 import { Canvas } from '@react-three/fiber'
+import { Environment } from '@react-three/drei'
 import { Group } from 'three'
 import { useSpring, animated, config } from '@react-spring/three'
 
@@ -48,18 +49,8 @@ const AnimatedVinyls = ({ isPlaying }: { isPlaying: boolean }) => {
 const VinylScene = ({ isPlaying }: VinylSceneProps) => {
   return (
     <Canvas camera={{ position: [0, 0, 7], fov: 90 }}>
-      <ambientLight intensity={1} />
-      {/* <pointLight position={[2, 0, -5]} />
-      <directionalLight position={[0, -5, 0]} intensity={1} /> */}
-
-      <directionalLight
-        position={[3, -2, -1]}
-        target-position={[0, -8, 0]}
-        intensity={1.5}
-        color="#ff0000"
-        castShadow
-      />
-
+      <ambientLight intensity={0.5} />
+      <Environment files="/hdrs/reinforced_concrete_01_4k.exr" />
       <AnimatedVinyls isPlaying={isPlaying} />
     </Canvas>
   )
