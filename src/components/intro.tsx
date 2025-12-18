@@ -169,7 +169,7 @@ const Intro = () => {
                         </motion.span>
                     </h1>
                     <motion.img 
-                        src="covers/Chappell_Roan_cover.jpg" 
+                        src="covers/Meryl_cover.jpg" 
                         alt="intro" 
                         className="max-w-xs lg:max-w-lg rounded-3xl object-cover"
                         initial={{ clipPath: "inset(50% 50% 50% 50%)", rotate: 0 }}
