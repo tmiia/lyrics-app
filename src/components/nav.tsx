@@ -1,0 +1,11 @@
+const Nav = () => {
+    return (
+        <nav className="fixed top-8 left-0 px-8 w-full z-50">
+            <ul className="flex items-center justify-end w-full">
+                <li className="text-sm text-zinc-700 font-maghfirea cursor-pointer"><a href="https://www.tiktok.com/@ici_miiadev" target="_blank">[@ici_miiadev]</a></li>
+            </ul>
+        </nav>
+    )
+}
+
+export default Nav;
