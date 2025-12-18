@@ -3,6 +3,7 @@ import { motion, useAnimation, AnimatePresence } from "framer-motion"
 import { useRef, useEffect, useState } from "react"
 import { usePlayer } from "@/context/PlayerContext"
 
+
 const Intro = () => {
     const { state, dispatch } = usePlayer()
     const [isVisible, setIsVisible] = useState(true)
@@ -19,6 +20,14 @@ const Intro = () => {
     const imgDelay = 1.25;
     const imgDuration = 0.65;
     const splitDelay = imgDelay;
+
+    let isDesktop = true;
+
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+            isDesktop = window.innerWidth > 1024;
+        }
+    }, []);
 
     useEffect(() => {
         const runAnimations = async () => {
@@ -43,9 +52,17 @@ const Intro = () => {
                 const getWidth = getRef.current.offsetWidth;
                 const lyricalWidth = lyricalRef.current.offsetWidth;
                 const gap = 8;
+
+                let leftOffset = 0;
+                let rightOffset = 0;
                 
-                const leftOffset = -(containerWidth / 2) + (getWidth * 2) - gap;
-                const rightOffset = (containerWidth / 2) + (lyricalWidth / 2) + gap;
+                if (isDesktop) {
+                    leftOffset = -(containerWidth / 2) + (getWidth * 2) - gap;
+                    rightOffset = (containerWidth / 2) + (lyricalWidth / 2) + gap;
+                } else {
+                    leftOffset = -(containerWidth / 6);
+                    rightOffset = (containerWidth / 6);
+                }
 
                 getControls.start({
                     x: leftOffset,
@@ -121,7 +138,7 @@ const Intro = () => {
                 exit={{ opacity: 0, transition: { duration: 0.3 } }}
             >
                 <div ref={containerRef} className="relative w-fit">
-                    <h1 className="z-10 w-fit absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-baseline gap-2 text-zinc-700">
+                    <h1 className="z-10 w-fit absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-baseline gap-2 lg:text-zinc-700">
                         <motion.span
                             ref={getRef}
                             className="inline-block font-maghfirea text-2xl"
