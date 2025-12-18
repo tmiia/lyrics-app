@@ -138,7 +138,7 @@ const Intro = () => {
                 exit={{ opacity: 0, transition: { duration: 0.3 } }}
             >
                 <div ref={containerRef} className="relative w-fit">
-                    <h1 className="z-10 w-fit absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-baseline gap-2 lg:text-zinc-700">
+                    <h1 className="z-10 w-fit absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-baseline gap-2 text-zinc-700">
                         <motion.span
                             ref={getRef}
                             className="inline-block font-maghfirea text-2xl"
