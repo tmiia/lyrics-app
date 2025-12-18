@@ -65,7 +65,7 @@ const LyricsDisplayer = () => {
               <motion.p
                 key={index}
                 className={`
-                  cursor-pointer transition-all duration-500 py-2 px-4 text-4xl font-marvio
+                  cursor-pointer transition-all duration-500 py-2 px-4 text-4xl font-marvio text-white
                   ${index === currentLineIndex
                     ? 'opacity-90'
                     : index === currentLineIndex - 1 || index === currentLineIndex + 1
