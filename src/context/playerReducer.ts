@@ -5,6 +5,8 @@ export const initialState: PlayerState = {
   currentTime: 0,
   duration: 0,
   currentTrack: null,
+  introComplete: false,
+  modelsLoaded: false,
 }
 
 export function playerReducer(state: PlayerState, action: PlayerAction): PlayerState {
@@ -19,6 +21,10 @@ export function playerReducer(state: PlayerState, action: PlayerAction): PlayerS
       return { ...state, currentTime: action.payload }
     case "SET_DURATION":
       return { ...state, duration: action.payload }
+    case "SET_INTRO_COMPLETE":
+      return { ...state, introComplete: true }
+    case "SET_MODELS_LOADED":
+      return { ...state, modelsLoaded: true }
     default:
       return state
   }

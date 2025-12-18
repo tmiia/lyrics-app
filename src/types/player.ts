@@ -16,6 +16,8 @@ export type PlayerState = {
   currentTime: number
   duration: number
   currentTrack: Track | null
+  introComplete: boolean
+  modelsLoaded: boolean
 }
 
 export type PlayerAction =
@@ -24,3 +26,5 @@ export type PlayerAction =
   | { type: "PAUSE" }
   | { type: "SET_TIME"; payload: number }
   | { type: "SET_DURATION"; payload: number }
+  | { type: "SET_INTRO_COMPLETE" }
+  | { type: "SET_MODELS_LOADED" }

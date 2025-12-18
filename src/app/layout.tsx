@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { PlayerProvider } from "@/context/PlayerContext";
 import localFont from "next/font/local";
 import "./globals.css";
+import Intro from "@/components/intro";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,7 +42,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${marvio.variable} ${maghfirea.variable} antialiased`}
       >
-        <PlayerProvider>{children}</PlayerProvider>
+        <PlayerProvider>
+          {children}
+        </PlayerProvider>
       </body>
     </html>
   );

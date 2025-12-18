@@ -14,13 +14,13 @@ const RandomSongStack = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
-    if (state.isPlaying) return
+    if (state.isPlaying || !state.introComplete) return
     const interval = setInterval(() => {
       setCurrentIndex(prev => prev + 1)
     }, 500)
 
     return () => clearInterval(interval)
-  }, [state.isPlaying])
+  }, [state.isPlaying, state.introComplete])
 
   const handlePlay = () => {
      dispatch({ type: "SET_TRACK", payload: songs[Math.floor(Math.random() * songs.length)] })
@@ -29,7 +29,7 @@ const RandomSongStack = () => {
 
   return (
     <AnimatePresence>
-      {!state.isPlaying && (
+      {state.introComplete && !state.isPlaying && (
         <motion.section
           className="relative"
           initial={{ scale: 1, opacity: 1 }}
