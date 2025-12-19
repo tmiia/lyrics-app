@@ -42,7 +42,7 @@ const Player = ({} : PlayerProps) => {
     <section className={`z-0 flex flex-col items-center py-2.5 transition-all duration-500 ease-out`}>
       { state.modelsLoaded && state.currentTrack && (
         <>
-          <audio ref={audioRef} src={state.currentTrack ? state.currentTrack.audioSrc : ''} onTimeUpdate={updateTime} />
+          <audio ref={audioRef} src={state.currentTrack ? state.currentTrack.audioSrc : ''} onTimeUpdate={updateTime} onEnded={() => dispatch({ type: "PAUSE" })} />
           {/* <button onClick={() => dispatch({ type: state.isPlaying ? "PAUSE" : "PLAY" })} className="z-20 px-6 py-3 bg-white/20 backdrop-blur-sm rounded-sm text-white font-medium font-marvio hover:bg-white/30 transition-colors cursor-pointer">
             {state.isPlaying ? "Close" : "Play"}
           </button> */}
