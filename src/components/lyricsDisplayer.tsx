@@ -3,7 +3,7 @@ import { usePlayer } from "@/context/PlayerContext"
 import { Track, LyricLine } from "@/types/player"
 import { motion } from "motion/react"
 import { useEffect, useRef } from "react"
-import songsData from '@/data/songs.json'
+import songsData from '@/data/meryl.json'
 
 const songs: Track[] = songsData.songs
 

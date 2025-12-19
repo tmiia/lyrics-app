@@ -3,7 +3,7 @@ import { usePlayer } from "@/context/PlayerContext"
 import { Track } from "@/types/player"
 import { useRef, useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import songsData from '@/data/songs.json'
+import songsData from '@/data/meryl.json'
 
 const songs: Track[] = songsData.songs
 

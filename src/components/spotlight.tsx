@@ -1,7 +1,7 @@
 "use client"
 
 import { usePlayer } from "@/context/PlayerContext"
-import songsData from "@/data/songs.json"
+import songsData from "@/data/meryl.json"
 import { Track } from "@/types/player"
 
 const Spotlight = () => {

@@ -475,6 +475,103 @@
             "time": 37.65
           }
         ]
-      }
+    },
+    {
+      "title": "castries",
+      "artist": "Meryl",
+      "audioSrc": "/songs/meryl-edf-riddim.mp3",
+      "cover": "/covers/Meryl_cover.jpg",
+        "lyrics": [
+          {
+            "text": "[...]",
+            "time": 0
+          },
+
+          {
+            "text": "Mwen soti fò d'Frans",
+            "time": 2.5
+          },
+          {
+            "text": "Mwen ja pran féri",
+            "time": 4.95
+          },
+          {
+            "text": "Mwen rivé Castries",
+            "time": 7
+          },
+          {
+            "text": "É sé gason fosè a nou",
+            "time": 8.95
+          },
+          {
+            "text": "Wè yin ké fanm bèl",
+            "time": 16
+          },
+          {
+            "text": "Mal menenn mwen kan kanal St. Lucia",
+            "time": 17.95
+          },
+          {
+            "text": "Sha... ou ka renmen sa",
+            "time": 19.85
+          },
+          {
+            "text": "Lèw ka renmen sa",
+            "time": 20.85
+          },
+          {
+            "text": "Just shot",
+            "time": 23.85
+          },
+          {
+            "text": "back shot, no gun shot",
+            "time": 25.95
+          },
+          {
+            "text": "Fuck up nou mash up",
+            "time": 27.75
+          },
+          {
+            "text": "Nou pran bato",
+            "time": 28.95
+          },
+          {
+            "text": "Nou sòti Mat'nik..",
+            "time": 29.95
+          },
+          {
+            "text": "anba dlo pou palé fransè",
+            "time": 30.95
+          },
+          {
+            "text": "Mwen diw just shot",
+            "time": 31.95
+          },
+          {
+            "text": "back shot, no gun shot",
+            "time": 32.95
+          },
+          {
+            "text": "Fuck up nou mash up",
+            "time": 33.95
+          },
+          {
+            "text": "Don't be shy",
+            "time": 34.95
+          },
+          {
+            "text": "Mwen enmen majò",
+            "time": 35.95
+          },
+          {
+            "text": "tou lé weekend kan si sé tchò",
+            "time": 36.95
+          },
+          {
+            "text": "Mwen soti fò d'Frans",
+            "time": 36.95
+          }
+        ]
+    }
   ]
 }
