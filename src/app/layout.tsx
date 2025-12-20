@@ -27,8 +27,8 @@ const maghfirea = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Lyrics App - Chansu nette",
-  description: "Discover the lyrics app",
+  title: "Get Lyrical - Meryl Edition",
+  description: "Discover the lyrics of songs",
 };
 
 export default function RootLayout({
