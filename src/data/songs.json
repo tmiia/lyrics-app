@@ -1,44 +1,44 @@
 {
   "songs": [
     {
-    "title": "ils me rient tous au nez",
-    "artist": "Théodora",
-    "audioSrc": "/songs/ils-me-rient-tous-au-nez_cut.mp3",
-    "cover": "/covers/Theodora_cover.jpg",
-      "lyrics": [
-        {
-          "text": "Pourtant, j'suis juste passionnelle",
-          "time": 0
-        },
-        {
-          "text": "Au point d'en perdre sommeil",
-          "time": 2.5
-        },
-        {
-          "text": "Si j't'aime et que ça va pas",
-          "time": 5.5
-        },
-        {
-          "text": "Sans demander, je te passe mon aide",
-          "time": 8.0
-        },
-        {
-          "text": "Pourtant, j'suis juste passionnelle",
-          "time": 11.2
-        },
-        {
-          "text": "Au point d'en perdre sommeil",
-          "time": 14.5
-        },
-        {
-          "text": "Si j't'aime et que ça va pas",
-          "time": 17.5
-        },
-        {
-          "text": "Sans demander, je te passe mon aide",
-          "time": 19.7
-        }
-      ]
+      "title": "ils me rient tous au nez",
+      "artist": "Théodora",
+      "audioSrc": "/songs/ils-me-rient-tous-au-nez_cut.mp3",
+      "cover": "/covers/Theodora_cover.jpg",
+        "lyrics": [
+          {
+            "text": "Pourtant, j'suis juste passionnelle",
+            "time": 0
+          },
+          {
+            "text": "Au point d'en perdre sommeil",
+            "time": 2.5
+          },
+          {
+            "text": "Si j't'aime et que ça va pas",
+            "time": 5.5
+          },
+          {
+            "text": "Sans demander, je te passe mon aide",
+            "time": 8.0
+          },
+          {
+            "text": "Pourtant, j'suis juste passionnelle",
+            "time": 11.2
+          },
+          {
+            "text": "Au point d'en perdre sommeil",
+            "time": 14.5
+          },
+          {
+            "text": "Si j't'aime et que ça va pas",
+            "time": 17.5
+          },
+          {
+            "text": "Sans demander, je te passe mon aide",
+            "time": 19.7
+          }
+        ]
     },
     {
     "title": "Pink pony club",
@@ -383,6 +383,195 @@
           "time": 48
         }
       ]
+    },
+    {
+      "title": "edf riddim remix",
+      "artist": "Meryl",
+      "audioSrc": "/songs/meryl-edf-riddim.mp3",
+      "cover": "/covers/Meryl_cover.jpg",
+        "lyrics": [
+          {
+            "text": "[...]",
+            "time": 0
+          },
+          {
+            "text": "EDF riddim gyal",
+            "time": 8.5
+          },
+          {
+            "text": "Parce que t'es electrique",
+            "time": 9.85
+          },
+          {
+            "text": "Quand tu passes obligé de baisser la vitre",
+            "time": 10.95
+          },
+          {
+            "text": "Au fond de moi, ça gronde",
+            "time": 13.7
+          },
+          {
+            "text": "comme un V8",
+            "time": 14.95
+          },
+          {
+            "text": "viens avec moi au triple 8",
+            "time": 16
+          },
+          {
+            "text": "j'invite Dantho",
+            "time": 17.95
+          },
+          {
+            "text": "parce que j'suis un volcan",
+            "time": 19.85
+          },
+          {
+            "text": "érruption ! depuis antan lontan",
+            "time": 20.85
+          },
+          {
+            "text": "tu sais déjà tous les chiens sont lâchés",
+            "time": 23.85
+          },
+          {
+            "text": "sous les cocos fait pas chier",
+            "time": 25.95
+          },
+          {
+            "text": "sa pété abracadabra",
+            "time": 27.75
+          },
+          {
+            "text": "papa shatta soti Volga",
+            "time": 28.95
+          },
+          {
+            "text": "krokodil pa pè piranha",
+            "time": 29.95
+          },
+          {
+            "text": "man ka koupé kan katana",
+            "time": 30.95
+          },
+          {
+            "text": "annik mandé dé twa nana",
+            "time": 32.75
+          },
+          {
+            "text": "kok la kolè kok la cola",
+            "time": 33.95
+          },
+          {
+            "text": "annik mandé dé twa nana",
+            "time": 34.85
+          },
+          {
+            "text": "mamouna sé bouyaka",
+            "time": 36.75
+          },
+          {
+            "text": "man diw Danm...",
+            "time": 37.65
+          }
+        ]
+    },
+    {
+      "title": "castries",
+      "artist": "Meryl",
+      "audioSrc": "/songs/meryl-edf-riddim.mp3",
+      "cover": "/covers/Meryl_cover.jpg",
+        "lyrics": [
+          {
+            "text": "[...]",
+            "time": 0
+          },
+
+          {
+            "text": "Mwen soti fò d'Frans",
+            "time": 2.5
+          },
+          {
+            "text": "Mwen ja pran féri",
+            "time": 4.95
+          },
+          {
+            "text": "Mwen rivé Castries",
+            "time": 7
+          },
+          {
+            "text": "É sé gason fosè a nou",
+            "time": 8.95
+          },
+          {
+            "text": "Wè yin ké fanm bèl",
+            "time": 16
+          },
+          {
+            "text": "Mal menenn mwen kan kanal St. Lucia",
+            "time": 17.95
+          },
+          {
+            "text": "Sha... ou ka renmen sa",
+            "time": 19.85
+          },
+          {
+            "text": "Lèw ka renmen sa",
+            "time": 20.85
+          },
+          {
+            "text": "Just shot",
+            "time": 23.85
+          },
+          {
+            "text": "back shot, no gun shot",
+            "time": 25.95
+          },
+          {
+            "text": "Fuck up nou mash up",
+            "time": 27.75
+          },
+          {
+            "text": "Nou pran bato",
+            "time": 28.95
+          },
+          {
+            "text": "Nou sòti Mat'nik..",
+            "time": 29.95
+          },
+          {
+            "text": "anba dlo pou palé fransè",
+            "time": 30.95
+          },
+          {
+            "text": "Mwen diw just shot",
+            "time": 31.95
+          },
+          {
+            "text": "back shot, no gun shot",
+            "time": 32.95
+          },
+          {
+            "text": "Fuck up nou mash up",
+            "time": 33.95
+          },
+          {
+            "text": "Don't be shy",
+            "time": 34.95
+          },
+          {
+            "text": "Mwen enmen majò",
+            "time": 35.95
+          },
+          {
+            "text": "tou lé weekend kan si sé tchò",
+            "time": 36.95
+          },
+          {
+            "text": "Mwen soti fò d'Frans",
+            "time": 36.95
+          }
+        ]
     }
   ]
 }

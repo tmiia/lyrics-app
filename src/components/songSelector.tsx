@@ -2,7 +2,7 @@
 import { usePlayer } from "@/context/PlayerContext"
 import { Track } from "@/types/player"
 import { useRef } from "react"
-import songsData from '@/data/songs.json'
+import songsData from '@/data/meryl.json'
 
 const songs: Track[] = songsData.songs
 

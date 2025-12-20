@@ -3,7 +3,7 @@ import { usePlayer } from "@/context/PlayerContext"
 import { Track, LyricLine } from "@/types/player"
 import { motion } from "motion/react"
 import { useEffect, useRef } from "react"
-import songsData from '@/data/songs.json'
+import songsData from '@/data/meryl.json'
 
 const songs: Track[] = songsData.songs
 
@@ -65,7 +65,7 @@ const LyricsDisplayer = () => {
               <motion.p
                 key={index}
                 className={`
-                  cursor-pointer transition-all duration-500 py-2 px-4 text-4xl font-marvio
+                  cursor-pointer transition-all duration-500 py-2 px-4 text-4xl font-marvio text-white
                   ${index === currentLineIndex
                     ? 'opacity-90'
                     : index === currentLineIndex - 1 || index === currentLineIndex + 1

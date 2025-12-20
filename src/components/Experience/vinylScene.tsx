@@ -1,26 +1,58 @@
 import VinylSleeve from '@/components/Experience/vinylSleeve'
 import VinylRecord from '@/components/Experience/vinylRecord'
-import { useRef } from 'react'
+import { useRef, useEffect, Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
+import { Environment } from '@react-three/drei'
 import { Group } from 'three'
 import { useSpring, animated, config } from '@react-spring/three'
+import { usePlayer } from '@/context/PlayerContext'
 
 
 interface VinylSceneProps {
   isPlaying: boolean
 }
 
-const AnimatedVinyls = ({ isPlaying }: { isPlaying: boolean }) => {
+const ModelsLoadedNotifier = () => {
+  const { dispatch } = usePlayer()
+
+  useEffect(() => {
+    dispatch({ type: "SET_MODELS_LOADED" })
+  }, [dispatch])
+
+  return null
+}
+
+interface AnimatedVinylsProps {
+  isPlaying: boolean
+  modelsLoaded: boolean
+  introComplete: boolean
+}
+
+const AnimatedVinyls = ({ isPlaying, modelsLoaded, introComplete }: AnimatedVinylsProps) => {
   const groupRef = useRef<Group>(null)
 
+  const isReady = modelsLoaded && introComplete
+
+  const getSleeveY = () => {
+    if (!isReady) return -25
+    if (isPlaying) return -10
+    return -15
+  }
+
+  const getRecordY = () => {
+    if (!isReady) return -22
+    if (isPlaying) return -5
+    return -11
+  }
+
   const { sleeveY } = useSpring({
-    sleeveY: isPlaying ? -10 : -15,
+    sleeveY: getSleeveY(),
     config: config.gentle,
     delay: isPlaying ? 120 : 0,
   })
 
   const { recordY } = useSpring({
-    recordY: isPlaying ? -5 : -11,
+    recordY: getRecordY(),
     config: config.gentle,
   })
 
@@ -46,21 +78,20 @@ const AnimatedVinyls = ({ isPlaying }: { isPlaying: boolean }) => {
 }
 
 const VinylScene = ({ isPlaying }: VinylSceneProps) => {
+  const { state } = usePlayer()
+
   return (
     <Canvas camera={{ position: [0, 0, 7], fov: 90 }}>
-      <ambientLight intensity={1} />
-      {/* <pointLight position={[2, 0, -5]} />
-      <directionalLight position={[0, -5, 0]} intensity={1} /> */}
-
-      <directionalLight
-        position={[3, -2, -1]}
-        target-position={[0, -8, 0]}
-        intensity={1.5}
-        color="#ff0000"
-        castShadow
-      />
-
-      <AnimatedVinyls isPlaying={isPlaying} />
+      <ambientLight intensity={0.5} />
+      <Environment files="/hdrs/environement-light.jpg" />
+      <Suspense fallback={null}>
+        <AnimatedVinyls 
+          isPlaying={isPlaying} 
+          modelsLoaded={state.modelsLoaded} 
+          introComplete={state.introComplete} 
+        />
+        <ModelsLoadedNotifier />
+      </Suspense>
     </Canvas>
   )
 }

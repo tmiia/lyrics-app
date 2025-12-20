@@ -1,0 +1,620 @@
+{
+    "songs": [
+        {
+            "title": "jack sparrow",
+            "artist": "Meryl",
+            "audioSrc": "/songs/meryl-jack-sparrow.mp3",
+            "cover": "/covers/Meryl_ozoror_cover.jpg",
+              "lyrics": [
+                {
+                  "text": "[...]",
+                  "time": 0
+                },
+                {
+                  "text": "Parano parano",
+                  "time": 0.85
+                },
+                {
+                  "text": "Parano parano",
+                  "time": 4.95
+                },
+                {
+                  "text": "Sa pé ké changé péyi a cho",
+                  "time": 7.95
+                },
+                {
+                  "text": "Tout' moun an parano",
+                  "time": 9.95
+                },
+                {
+                  "text": "(parano, parano, parano)",
+                  "time": 11.95
+                },
+                {
+                  "text": "Lè 38 ka chanté tout' penn li",
+                  "time": 14.95
+                },
+                {
+                  "text": "Sa pli spésyal ki mavado",
+                  "time": 17.95
+                },
+                {
+                  "text": "(la pli kouri mové tan, la pli kouri mové tan)",
+                  "time": 19.95
+                },
+                {
+                  "text": "Tou sa ki ka fèt in deh kay rété in deh",
+                  "time": 22.95
+                },
+                {
+                  "text": "Tan ke bizness la ka tounen",
+                  "time": 25.75
+                },
+                {
+                  "text": "Policeman ka fè won",
+                  "time": 27.85
+                },
+                {
+                  "text": "Farin an poud ka tjuit",
+                  "time": 29.95
+                },
+                {
+                  "text": "Sa pli rantab ki la patoche",
+                  "time": 31.95
+                },
+                {
+                  "text": "Drug dilè ni talan",
+                  "time": 33.95
+                },
+                {
+                  "text": "Mikwòb pòsté kon atakan",
+                  "time": 35.75
+                },
+                {
+                  "text": "Mada ou two bèl",
+                  "time": 37.95
+                },
+                {
+                  "text": "Menm si ou vakabon",
+                  "time": 38.95
+                },
+                {
+                  "text": "Two bèl ou vakabon",
+                  "time": 39.95
+                },
+                {
+                  "text": "Two bèl, an pé kéy kitéw pou pèsonn",
+                  "time": 41.95
+                },
+                {
+                  "text": "Ou two bèl menm si ou vakabon",
+                  "time": 45.95
+                },
+                {
+                  "text": "Two bèl ou vakabon",
+                  "time": 47.95
+                },
+                {
+                  "text": "Two bèl, an pé kéy kitéw pou pèsonn",
+                  "time": 49.95
+                },
+                {
+                  "text": "Bwè wonm adan an boat sé Jack Sparrow",
+                  "time": 53.95
+                },
+                {
+                  "text": "Fou kon Jack Sparrow",
+                  "time": 56
+                },
+                {
+                  "text": "Kouri si ni la pli pa douvan Glock",
+                  "time": 60.95
+                },
+                {
+                  "text": "pa ni Sylvester Stallone",
+                  "time": 63.95
+                },
+                {
+                  "text": "Paradi sé ba touris la vi'a",
+                  "time": 68.95
+                },
+                {
+                  "text": "pa jan fè nou kado",
+                  "time": 70.95
+                },
+                {
+                  "text": "Chabon ké toujou fè difé",
+                  "time": 75.95
+                },
+                {
+                  "text": "malgré ravèt jalou é mako",
+                  "time": 77.95
+                }
+              ]
+        },
+        {
+            "title": "beni",
+            "artist": "Meryl",
+            "audioSrc": "/songs/meryl-beni.mp3",
+            "cover": "/covers/Meryl_jour_avant_caviar_cover.jpg",
+              "lyrics": [
+                {
+                  "text": "[...]",
+                  "time": 0
+                },
+                {
+                  "text": "Pa rabésé ko mwen",
+                  "time": 8.5
+                },
+                {
+                  "text": "a nivo sé mesié pou",
+                  "time": 9.95
+                },
+                {
+                  "text": "An ka soti'y si ni an dout",
+                  "time": 13.95
+                },
+                {
+                  "text": "Red, sal, an béni, an béni",
+                  "time": 17
+                },
+                {
+                  "text": "Pa rabésé ko mwen",
+                  "time": 26
+                },
+                {
+                  "text": "a nivo sé mesié",
+                  "time": 26.95
+                },
+                {
+                  "text": "pou evité lé kou ba sa lojik",
+                  "time": 28.65
+                },
+                {
+                  "text": "Mandé mwen ki sa an ka fè",
+                  "time": 30.95
+                },
+                {
+                  "text": "An ke reponn epi an lias biyè vè emoji",
+                  "time": 32.35
+                },
+                {
+                  "text": "Fébles mwen sé de rété humaine",
+                  "time": 34.95
+                },
+                {
+                  "text": "Sa enposib pa rèsanti santiman",
+                  "time": 36.95
+                },
+                {
+                  "text": "Sa tendu kon an jenn ti hymene",
+                  "time": 38.95
+                },
+                {
+                  "text": "Les erreurs du passé seront mes sentinelles",
+                  "time": 40.95
+                },
+                {
+                  "text": "Si wou rikonnet kow an mwen sa bizar",
+                  "time": 42.95
+                },
+                {
+                  "text": "pass an didan mwen tout bagay brisé",
+                  "time": 45.95
+                },
+                {
+                  "text": "Mais show must go on, avant de partir",
+                  "time": 47.95
+                },
+                {
+                  "text": "le matin je met mes plus beaux habits de scène",
+                  "time": 48.95
+                },
+                {
+                  "text": "Woch tombé an jaden mwen",
+                  "time": 52.95
+                },
+                {
+                  "text": "middle finger résépisé",
+                  "time": 53.95
+                },
+                {
+                  "text": "Pa enmen mwen pou ban mwen vitamine",
+                  "time": 56.75
+                },
+                {
+                  "text": "cinq haterz par jour pour mener la vie saine",
+                  "time": 58.95
+                },
+                {
+                  "text": "An lamp adan poch mwen",
+                  "time": 61.25
+                },
+                {
+                  "text": "Si tout fwa an te fè fausse wout",
+                  "time": 62.95
+                },
+                {
+                  "text": "An pran pli gran jokè a",
+                  "time": 65.95
+                },
+                {
+                  "text": "An ka soti’y si ni an dout",
+                  "time": 67.05
+                },
+                {
+                  "text": "Sa vré la vi a red",
+                  "time": 69.95
+                },
+                {
+                  "text": "Mé sa té pé èt pli sal ki sa",
+                  "time": 71.95
+                },
+                {
+                  "text": "Ou vé fou mwen a tè",
+                  "time": 73.95
+                },  
+                {
+                  "text": "Pa oublié an bagay kapital",
+                  "time": 75.95
+                },
+                {
+                  "text": "An beni",
+                  "time": 79.95
+                },
+                {
+                  "text": "Ich bondjé pa ka péri an linj sal",
+                  "time": 93.95
+                }
+              ]
+        },
+        {
+            "title": "edf riddim remix",
+            "artist": "Meryl",
+            "audioSrc": "/songs/meryl-edf-riddim.mp3",
+            "cover": "/covers/Meryl_cover.jpg",
+              "lyrics": [
+                {
+                  "text": "[...]",
+                  "time": 0
+                },
+                {
+                  "text": "EDF riddim gyal",
+                  "time": 8.5
+                },
+                {
+                  "text": "Parce que t'es electrique",
+                  "time": 9.85
+                },
+                {
+                  "text": "Quand tu passes obligé de baisser la vitre",
+                  "time": 10.95
+                },
+                {
+                  "text": "Au fond de moi, ça gronde",
+                  "time": 13.7
+                },
+                {
+                  "text": "comme un V8",
+                  "time": 14.95
+                },
+                {
+                  "text": "viens avec moi au triple 8",
+                  "time": 16
+                },
+                {
+                  "text": "j'invite Dantho",
+                  "time": 17.95
+                },
+                {
+                  "text": "parce que j'suis un volcan",
+                  "time": 19.85
+                },
+                {
+                  "text": "érruption ! depuis antan lontan",
+                  "time": 20.85
+                },
+                {
+                  "text": "tu sais déjà tous les chiens sont lâchés",
+                  "time": 23.85
+                },
+                {
+                  "text": "sous les cocos fait pas chier",
+                  "time": 25.95
+                },
+                {
+                  "text": "sa pété abracadabra",
+                  "time": 27.75
+                },
+                {
+                  "text": "papa shatta soti Volga",
+                  "time": 28.95
+                },
+                {
+                  "text": "krokodil pa pè piranha",
+                  "time": 29.95
+                },
+                {
+                  "text": "man ka koupé kan katana",
+                  "time": 30.95
+                },
+                {
+                  "text": "annik mandé dé twa nana",
+                  "time": 32.75
+                },
+                {
+                  "text": "kok la kolè kok la cola",
+                  "time": 33.95
+                },
+                {
+                  "text": "annik mandé dé twa nana",
+                  "time": 34.85
+                },
+                {
+                  "text": "mamouna sé bouyaka",
+                  "time": 36.75
+                },
+                {
+                  "text": "man diw Danm...",
+                  "time": 37.65
+                }
+              ]
+        },
+        {
+            "title": "ahlala",
+            "artist": "Meryl",
+            "audioSrc": "/songs/meryl-ahlala.mp3",
+            "cover": "/covers/Meryl_ahlala_cover.jpg",
+              "lyrics": [
+                {
+                  "text": "[...]",
+                  "time": 0
+                },
+                {
+                  "text": "La roue tourne ton baton",
+                  "time": 11.50
+                },
+                {
+                  "text": "y va s'casser",
+                  "time": 12.85
+                },
+                {
+                  "text": "Je surveille mes arrières",
+                  "time": 13.95
+                },
+                {
+                  "text": "j'fais même pas mes lacets",
+                  "time": 14.95
+                },
+                {
+                  "text": "je soupire, ça fait 'ahlala'",
+                  "time": 16.35
+                },
+                {
+                  "text": "dis-moi qui m'empêchera d'brasser ?",
+                  "time": 17.95
+                },
+                {
+                  "text": "Tout près d'tes tympans",
+                  "time": 19.85
+                },
+                {
+                  "text": "j'arrive comme Yamakasi",
+                  "time": 20.95
+                },
+                {
+                  "text": "Jesus et Papi Ochoa même eux",
+                  "time": 22.5
+                },
+                {
+                  "text": "ils ont du trépasser",
+                  "time": 23.95
+                },
+                {
+                  "text": "T'es un super héros hein",
+                  "time": 25.95
+                },
+                {
+                  "text": "tu viens menacer",
+                  "time": 26.75
+                },
+                {
+                  "text": "je soupire, ça fait 'ahlala'",
+                  "time": 27.95
+                },
+                {
+                  "text": "dis-moi qui m'empêchera d'brasser ?",
+                  "time": 28.95
+                },
+                {
+                  "text": "C'est chaud comme chez moi",
+                  "time": 30.85
+                },
+                {
+                  "text": "ça brûle comme bidon d'acide",
+                  "time": 32.75
+                },
+                {
+                  "text": "J'ai connu des hauts et des bas",
+                  "time": 35.95
+                },
+                {
+                  "text": "la chatte à la pute",
+                  "time": 36.85
+                },
+                {
+                  "text": "Qui suce dans l'ascenseur",
+                  "time": 37.85
+                },
+                {
+                  "text": "Qui suce dans l'ascenseur",
+                  "time": 39.75
+                },
+                {
+                  "text": "La conseillère d'orientation",
+                  "time": 40.75
+                },
+                {
+                  "text": "fait du bon boulot",
+                  "time": 42.85
+                },
+                {
+                  "text": "Mais la vie n'a pas d'sens",
+                  "time": 43.95
+                },
+                {
+                  "text": "Mais la vie n'a pas d'sens",
+                  "time": 45.95
+                },
+                {
+                  "text": "Je n'ai pas eu les mots",
+                  "time": 47.95
+                },
+                {
+                  "text": "pour leur dire mes doléances",
+                  "time": 48.95
+                },
+                {
+                  "text": "En même temps, les mots",
+                  "time": 49.95
+                },
+                {
+                  "text": "ne veulent rien dire",
+                  "time": 51.65
+                },
+                {
+                  "text": "s'il n'y a pas d'action",
+                  "time": 52
+                },
+                {
+                  "text": "On finira qu'avec tout",
+                  "time": 53.75
+                },
+                {
+                  "text": "ce qu'on aura mérité",
+                  "time": 54.95
+                },
+                {
+                  "text": "C'est pour ça qu'entre eux et moi",
+                  "time": 56.95
+                },
+                {
+                  "text": "y'aura jamais d'équité",
+                  "time": 57.95
+                },
+                {
+                  "text": "Woooh, woooh, woooh",
+                  "time": 60
+                },
+                {
+                  "text": "C'est les jours avant le caviar",
+                  "time": 63.95
+                },
+                {
+                  "text": "Woooh, woooh, woooh",
+                  "time": 66
+                },
+                {
+                  "text": "C'est les jours avant le caviar",
+                  "time": 69.95
+                }
+              ]
+        },
+        {
+            "title": "castries",
+            "artist": "Meryl",
+            "audioSrc": "/songs/meryl-castries.mp3",
+            "cover": "/covers/Meryl_cover.jpg",
+            "lyrics": [
+                {
+                "text": "[...]",
+                "time": 0
+                },
+                {
+                "text": "Mwen soti fò d'Frans",
+                "time": 3.75
+                },
+                {
+                "text": "Mwen ja pran féri",
+                "time": 4.95
+                },
+                {
+                "text": "Mwen rivé Castries",
+                "time": 6.95
+                },
+                {
+                "text": "É sé gason fosè a nou (?)",
+                "time": 8.95
+                },
+                {
+                "text": "Wè yin ki fanm bèl",
+                "time": 10.95
+                },
+                {
+                "text": "Mal menenn mwen kan kanal St. Lucia",
+                "time": 12.85
+                },
+                {
+                "text": "la ou ka renmen sa",
+                "time": 14.75
+                },
+                {
+                "text": "Lèw ka renmen sa",
+                "time": 16.65
+                },
+                {
+                "text": "Just shot",
+                "time": 18.95
+                },
+                {
+                "text": "back shot, no gun shot",
+                "time": 19.75
+                },
+                {
+                "text": "Fuck up nou mash up",
+                "time": 20.75
+                },
+                {
+                "text": "Nou pran bato",
+                "time": 21.95
+                },
+                {
+                "text": "Nou sòti Mat'nik",
+                "time": 22.95
+                },
+                {
+                "text": "anba dlo (?) pou palé fransè",
+                "time": 23.95
+                },
+                {
+                "text": "Mwen diw just shot",
+                "time": 25.95
+                },
+                {
+                "text": "back shot, no gun shot",
+                "time": 26.95
+                },
+                {
+                "text": "Fuck up nou mash up",
+                "time": 28.25
+                },
+                {
+                "text": "Don't be shy",
+                "time": 29.75
+                },
+                {
+                "text": "Mwen enmen majò",
+                "time": 30.25
+                },
+                {
+                "text": "tou lé weekend kan si sé tchò (?)",
+                "time": 30.95
+                },
+                {
+                "text": "Mwen soti fò d'Frans",
+                "time": 32.95
+                }
+            ]
+        }
+    ]
+}
