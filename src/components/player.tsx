@@ -46,6 +46,7 @@ const Player = ({} : PlayerProps) => {
           {/* <button onClick={() => dispatch({ type: state.isPlaying ? "PAUSE" : "PLAY" })} className="z-20 px-6 py-3 bg-white/20 backdrop-blur-sm rounded-sm text-white font-medium font-marvio hover:bg-white/30 transition-colors cursor-pointer">
             {state.isPlaying ? "Close" : "Play"}
           </button> */}
+          <strong className="z-50 text-white/50 font-mono font-light text-xs">made by <a href="https://www.nehemiatelusma.com/" target="_blank" className="text-white/50 font-mono font-light text-xs">@ici_miiadev</a></strong>
         </>
       )}
       <div className="absolute top-0 left-0 w-screen h-screen z-0 pointer-events-none">
