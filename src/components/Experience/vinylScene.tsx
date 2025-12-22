@@ -83,7 +83,7 @@ const VinylScene = ({ isPlaying }: VinylSceneProps) => {
   return (
     <Canvas camera={{ position: [0, 0, 7], fov: 90 }}>
       <ambientLight intensity={0.5} />
-      <Environment files="/hdrs/reinforced_concrete_01_4k.exr" />
+      <Environment files="/hdrs/concrete.hdr" />
       <Suspense fallback={null}>
         <AnimatedVinyls 
           isPlaying={isPlaying} 
